@@ -112,10 +112,10 @@ export function AuthModal({ open, onClose, onSuccess, message }: AuthModalProps)
         </button>
 
         <p className="tiny muted">
-          Admin demo: admin@estilomoda.com / admin123 (cadastre essa conta no modo
-          local ou no Firebase).
+          Conta admin: ecomercelojavirtual366@gmail.com (já cadastrada no Firebase).
         </p>
       </div>
     </div>
   );
 }
+

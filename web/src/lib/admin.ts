@@ -1,4 +1,4 @@
-const DEFAULT_ADMINS = ["admin@estilomoda.com"];
+const DEFAULT_ADMINS = ["ecomercelojavirtual366@gmail.com"];
 
 export function getAdminEmails() {
   const fromEnv = process.env.NEXT_PUBLIC_ADMIN_EMAILS;
@@ -13,3 +13,4 @@ export function isAdminEmail(email?: string | null) {
   if (!email) return false;
   return getAdminEmails().includes(email.toLowerCase());
 }
+ 

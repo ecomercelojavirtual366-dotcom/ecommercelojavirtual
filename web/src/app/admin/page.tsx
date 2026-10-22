@@ -136,7 +136,7 @@ export default function AdminPage() {
           <h1 className="page-title">Acesso negado</h1>
           <p className="muted">
             Sua conta ({user.email}) não está na lista de administradores.
-            Configure `NEXT_PUBLIC_ADMIN_EMAILS` ou use admin@estilomoda.com.
+            Use ecomercelojavirtual366@gmail.com ou atualize NEXT_PUBLIC_ADMIN_EMAILS.
           </p>
         </div>
       </section>

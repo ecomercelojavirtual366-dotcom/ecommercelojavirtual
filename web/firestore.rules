@@ -8,7 +8,7 @@ service cloud.firestore {
     function isAdmin() {
       return signedIn() &&
         request.auth.token.email in [
-          'admin@estilomoda.com'
+          'ecomercelojavirtual366@gmail.com'
         ];
     }
 

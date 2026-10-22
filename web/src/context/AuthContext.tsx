@@ -78,10 +78,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
 
     const users = readJson<LocalAccount[]>(USERS_KEY, []);
-    if (!users.some((item) => item.email === "admin@estilomoda.com")) {
+    if (!users.some((item) => item.email === "ecomercelojavirtual366@gmail.com")) {
       users.push({
         uid: "local_admin",
-        email: "admin@estilomoda.com",
+        email: "ecomercelojavirtual366@gmail.com",
         name: "Administradora",
         password: "admin123",
       });
